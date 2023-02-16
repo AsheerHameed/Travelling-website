@@ -1,0 +1,26 @@
+.language-switch-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.language-switch-container select {
+  border-color: #fff1da;
+  font-family: var(--p-font);
+  outline: none;
+  font-weight: 700;
+  border-radius: 5px;
+  background-color: #fff1da;
+  font-size: 15px;
+  color: #212832;
+  cursor: pointer;
+}
+.language-switch-container select:focus {
+  border: 1px solid#212832;
+  color: #fff1da;
+  background-color: #212832;
+}
+@media screen and (max-width: 950px) {
+  .language-switch-container select {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,34 @@
+.brands_logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.brands_logo div {
+  flex: 1;
+  min-width: 120px;
+  max-width: 150px;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 1150px) {
+  .brands_logo {
+    position: relative;
+    top: 75rem;
+    left: 35rem;
+  }
+}
+@media screen and (max-width: 649px) {
+  .brands_logo {
+    top: 162rem;
+    left: 0rem;
+  }
+  .last-image {
+    padding: 1rem 0y;
+  }
+  .expedia{
+    padding-right:5rem ;
+  }
+}

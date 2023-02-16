@@ -1,0 +1,131 @@
+.subheading p {
+  text-align: center;
+}
+.subheading h1 {
+  padding-bottom: 7rem;
+}
+.place-images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.place-images img {
+  position: relative;
+  z-index: 1;
+  width: 314px;
+  height: 457px;
+  border-radius: 24px;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+  cursor: pointer;
+}
+.place-images img:hover {
+  transform: scale(0.95);
+}
+.card {
+  position: relative;
+}
+.card-content {
+  width: 315px;
+  height: 120px;
+  background: #fff;
+  border-radius: 0px 0px 24px 24px;
+  position: absolute;
+  top: 34rem;
+  display: flex;
+  z-index: 2;
+  justify-content: space-between;
+  padding: 3rem;
+}
+.card-content div {
+  font-family: var(--p-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 124.5%;
+  color: #5e6282;
+}
+.card-icons {
+  display: flex;
+  justify-content: space-around;
+}
+.card-icons img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 40rem;
+  left: 3rem;
+  z-index: 3;
+}
+.card-icons p {
+  font-family: var(--p-font);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 124.5%;
+  color: #5e6282;
+  position: absolute;
+  top: 41rem;
+  left: 8rem;
+  z-index: 4;
+}
+
+.container-wrapping {
+  padding: 4rem 6rem;
+}
+.decor {
+  display: flex;
+  position: absolute;
+  left: 121rem;
+  z-index: 0;
+}
+.decor img {
+  width: 96px;
+  height: 252px;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1050px) {
+  .place-images {
+    flex-direction: row;
+    padding: 1rem 6rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 4rem;
+  }
+  .decor {
+    display: flex;
+    position: absolute;
+    left: 133rem;
+  }
+  .subheading {
+    margin-left: 14rem;
+    width: 120rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .place-images {
+    flex-direction: column;
+  }
+  .container-wrapping {
+    padding: 8rem 6rem;
+    position: relative;
+    top: 158rem;
+  }
+  .card {
+    padding-bottom: 4rem;
+  }
+  .card-content div {
+    font-weight: normal;
+  }
+  .card-icons p {
+    font-weight: normal;
+  }
+  .subheading h1 {
+    font-size: 3rem;
+    padding-bottom: 2.8rem;
+    line-height: 50px;
+  }
+  .subheading p {
+    font-size: 1.5rem;
+  }
+  .decor img {
+    display: none;
+  }
+}

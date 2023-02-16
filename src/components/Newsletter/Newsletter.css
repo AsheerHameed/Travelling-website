@@ -1,0 +1,143 @@
+.container {
+  background: #f2efff;
+  border-radius: 129px 20px 20px 20px;
+  width: 1170px;
+  height: 407px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.conatiner_wrapper {
+  padding: 0 7rem;
+  position: relative;
+  top: -32rem;
+  margin-top: -12rem;
+}
+.send_img {
+  justify-content: flex-end;
+  align-items: center;
+}
+.container h1 {
+  font-family: var(--p-font);
+  font-weight: 600;
+  font-size: 2.8rem;
+  line-height: 5.5rem;
+  text-align: center;
+  color: #5e6282;
+  padding: 1rem 10rem;
+}
+.input {
+  gap: 1rem;
+  z-index: 2;
+}
+.input input {
+  width: 421px;
+  height: 68px;
+  background: #ffffff;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  padding-left: 6rem;
+  padding-top: -10rem;
+  font-family: var(--p-font);
+}
+.input img {
+  position: relative;
+  left: 5em;
+}
+.input button {
+  padding: 0 2rem;
+  background: linear-gradient(180deg, #ff946d 0%, #ff7d68 100%);
+  border-radius: 10px;
+  width: 180px;
+  height: 68px;
+  font-family: var(--p-font);
+  font-size: 15px;
+  text-align: center;
+  outline: none;
+  border: none;
+  color: #ffffff;
+}
+.decor1 {
+  position: relative;
+  top: 42rem;
+  z-index: 1;
+  height: 380px;
+  width: 460px;
+  object-fit: contain;
+}
+.decor2 {
+  position: relative;
+  top: 40rem;
+  left: 48rem;
+  z-index: 1;
+  height: 350px;
+}
+.decor3 {
+  position: relative;
+  top: 51rem;
+  left: 38rem;
+  z-index: -1;
+}
+.sent {
+  position: relative;
+  left: 25rem;
+  top: 5rem;
+  z-index: 1;
+}
+@media screen and (max-width: 1050px) {
+  .conatiner_wrapper {
+    position: relative;
+    top: 46rem;
+    left: 10rem;
+    height: 90rem;
+    padding: 2rem ;
+  }
+  .sent {
+    left: 24rem;
+  }
+}
+@media screen and (max-width: 649px) {
+  .container {
+    position: relative;
+    width: 370px;
+    height: 31rem;
+    left: -9rem;
+    top: 121rem;
+    border-radius: 3rem 0 3rem 3rem;
+  }
+  .container h1 {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    text-align: left;
+    color: #5e6282;
+    padding: 0 3rem 4rem 3rem;
+  }
+  .input input {
+    width: 19rem;
+    height: 5rem;
+    font-size: 1.5rem;
+  }
+  .input button {
+    width: 8rem;
+    height: 5rem;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    padding: 0 1rem;
+  }
+  .sent {
+    top: 124rem;
+    left:24rem;
+    height:60px;
+    width: 60px;
+  }
+  
+  .decor2,
+  .decor1, 
+  .decor3{
+    display: none;
+  }
+}

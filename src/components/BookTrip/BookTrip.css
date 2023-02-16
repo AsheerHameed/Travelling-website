@@ -1,0 +1,238 @@
+.container_wrapper {
+  display: flex;
+  gap: 15rem;
+}
+.left_content {
+  display: flex;
+  padding: 2rem 2rem;
+  white-space: pre-wrap;
+}
+.left_content_text {
+  padding: 0 2rem;
+}
+.left_content_text h2 {
+  font-family: var(--p-font);
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 145.5%;
+  color: #5e6282;
+}
+.left_content_text p {
+  font-family: var(--p-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #5e6282;
+}
+
+.subheadingSecond h1 {
+  text-align: left;
+  padding-bottom: 2rem;
+}
+.subheadingSecond p {
+  text-align: left;
+}
+.features {
+  padding: 1rem 0;
+}
+
+.right_side {
+  position: relative;
+  height: max-content;
+  background: #fff;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02),
+    0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852),
+    0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481),
+    0px 20px 13px rgba(0, 0, 0, 0.01),
+    0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
+    0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+  border-radius: 26px;
+  z-index: 1;
+  height: 42rem;
+  width: 37rem;
+}
+.right_side_img img {
+  border-radius: 24px;
+  width: 321px;
+  height: 161px;
+  margin-left: 2.5rem;
+  margin-top: 2rem;
+}
+.right_side_blur {
+  background: #59b1e6;
+  opacity: 0.9;
+  filter: blur(75px);
+  width: 10rem;
+  height: 29rem;
+  position: absolute;
+  left: 114rem;
+  z-index: 0;
+}
+.right_side_text h2 {
+  padding: 2rem 3rem;
+  font-family: var(--p-font);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 124.5%;
+  letter-spacing: 0.015em;
+  color: #080809;
+}
+.right_side_text p {
+  padding: 1.5rem 3rem;
+  font-family: var(--p-font);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 124.5%;
+  letter-spacing: -0.005em;
+  color: #84829a;
+}
+.right_side_icons {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+.right_side_icons img {
+  padding: 1rem 1.6rem;
+}
+.right_side_footer {
+  display: flex;
+  padding: 2rem 3rem;
+  position: relative;
+}
+.right_side_footer p {
+  padding: 0 3rem;
+  font-family: var(--p-font);
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: -0.005em;
+  color: #84829a;
+}
+.footer_heart {
+  position: relative;
+  left: 10rem;
+}
+.ongoing_trip {
+  background: #ffffff;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02),
+    0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852),
+    0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481),
+    0px 20px 13px rgba(0, 0, 0, 0.01),
+    0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
+    0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  height: 159px;
+  position: relative;
+  width: max-content;
+  padding: 1rem 3rem;
+  left: 25rem;
+  top: -22rem;
+}
+.ongoing_trip_image {
+  display: flex;
+}
+
+.rome {
+  margin-top: 2rem;
+}
+.ongoing_trip_p p {
+  display: inline;
+}
+.ongoing_trip_content {
+  flex-direction: column;
+}
+
+.indicator {
+  margin-top: 0rem;
+  margin-left: 3rem;
+}
+
+@media screen and (max-width: 2000px) {
+  .container_wrapper {
+    padding: 11rem 12rem 3rem 12rem;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .container_wrapper {
+    position: absolute;
+    left: 9rem;
+    gap: 7rem;
+  }
+  .subheadingSecond h1 {
+    font-size: 4rem;
+    line-height: 54.2px;
+  }
+  .subheadingSecond p {
+    font-size: 2rem;
+    line-height: 4rem;
+  }
+  .left_content_text p {
+    line-height: 135%;
+    font-size: 2rem;
+  }
+  .left_content_text h2 {
+    line-height: 135%;
+    font-size: 2.5rem;
+  }
+  .left_side {
+    margin-right: 0rem;
+    width: 650px;
+  }
+  .right_side_blur {
+    left: 110rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .container_wrapper {
+    flex-direction: column;
+    position: relative;
+    top: 142rem;
+    left: 6rem;
+  }
+  .left_side {
+    width: 35rem;
+    margin-left: -15rem;
+  }
+  .right_side_blur {
+    display: flex;
+    left: 2rem;
+    top: 115rem;
+  }
+  .subheadingSecond h1 {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 4rem;
+  }
+  .subheadingSecond p {
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 4rem;
+  }
+  .left_content_text p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+  .left_content_text h2 {
+    line-height: 165%;
+    font-size: 1.5rem;
+  }
+  .right_side {
+    width: 36rem;
+    margin-left: -15rem;
+  }
+  .right_side_text p {
+    font-size: 1.2rem;
+  }
+  .ongoing_trip {
+    top: 8rem;
+    left: 0rem;
+    padding: 2rem 1rem;
+    width: 360px;
+    height: 183px;
+  }
+}

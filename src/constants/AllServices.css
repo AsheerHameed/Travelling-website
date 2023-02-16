@@ -1,0 +1,11 @@
+.container__wrapper {
+  padding: 4rem 3rem;
+}
+.heading 
+
+.image img {
+    float: left;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+}

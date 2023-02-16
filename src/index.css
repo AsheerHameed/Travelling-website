@@ -1,0 +1,21 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Volkhov&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Volkhov&display=swap");
+:root {
+  --head-font: "Volkhov", serif;
+  --p-font: "Poppins", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+a {
+  color: unset;
+  text-decoration: none;
+}

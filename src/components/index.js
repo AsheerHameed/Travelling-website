@@ -1,0 +1,9 @@
+export { default as Navbar } from "./Navbar/Navbar";
+export { default as Home } from "./Home/Home";
+export { default as Services } from "./Services/Services";
+export { default as Destinations } from "./Destinations/Destinations";
+export { default as Testimonials } from "./Testimonials/Testimonials";
+export { default as BookTrip } from "./BookTrip/BookTrip";
+export { default as Partners } from "./Partners/Partners";
+export { default as Newsletter } from "./Newsletter/Newsletter";
+export { default as Footer } from "./Footer/Footer";
